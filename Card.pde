@@ -14,11 +14,16 @@ class Card {
 
 
   //Constructor
-  Card(int xPassed, int yPassed, int WidthPassed, int HeightPassed){
+  Card(int xPassed, int yPassed, int WidthPassed, int HeightPassed) {
 
     x = xPassed;
     y = yPassed;
     Width = WidthPassed;
     Height = HeightPassed;
   }
+
+  void update() {
+    rect(x, y, 100, 150, 10);
+  }
+  
 }
