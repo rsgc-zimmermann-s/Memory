@@ -23,6 +23,7 @@ class Card {
   }
 
   void update() {
+    noStroke();
     rect(x, y, 100, 150, 10);
   }
   

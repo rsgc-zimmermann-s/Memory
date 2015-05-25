@@ -23,7 +23,7 @@ class Cover {
   }
 
   void update() {
+    stroke(0);
     rect(x, y, 100, 150, 10);
-  }
-  
+  } 
 }
