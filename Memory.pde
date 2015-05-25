@@ -48,14 +48,15 @@ void draw() {
   card5.update();
   card6.update();
 
-  fill(0);
-  textSize(10);
-  text("1", 155, 55);
-  text("3", 380, 55);
-  text("1", 155, 270);
-  text("2", 380, 270);
-  text("3", 155, 490);
-  text("2", 380, 490);
+  fill(0); {
+    textSize(10);
+    text("1", 155, 55);
+    text("3", 380, 55);
+    text("1", 155, 270);
+    text("2", 380, 270);
+    text("3", 155, 490);
+    text("2", 380, 490);
+  }
 
   cover1.update();
   cover2.update();
