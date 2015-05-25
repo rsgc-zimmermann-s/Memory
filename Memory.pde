@@ -41,6 +41,19 @@ void setup() {
 
 void draw() {
 
+  { 
+    textSize(25);
+    fill(0);
+    stroke(0);
+    text("1", 165, 75);
+    text("3", 390, 75);
+    text("1", 165, 290);
+    text("2", 390, 290);
+    text("3", 165, 510);
+    text("2", 390, 510);
+  }
+
+  noFill();
   card1.update();
   card2.update();
   card3.update();
@@ -48,16 +61,7 @@ void draw() {
   card5.update();
   card6.update();
 
-  fill(0); {
-    textSize(10);
-    text("1", 155, 55);
-    text("3", 380, 55);
-    text("1", 155, 270);
-    text("2", 380, 270);
-    text("3", 155, 490);
-    text("2", 380, 490);
-  }
-
+  fill(100);
   cover1.update();
   cover2.update();
   cover3.update();
